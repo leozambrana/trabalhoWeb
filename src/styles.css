@@ -1,8 +1,7 @@
 * {
     font-family: 'Times New Roman', Times, serif;
-    
 }
-
+/* 
 body {
     background-color: #000000;
 }
@@ -120,4 +119,8 @@ input::placeholder{
 .gif-contact img{
     
     border-radius: 5px;
-}
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

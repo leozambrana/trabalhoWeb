@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../dist/output.css">
     <title>Mobius Digital Games</title>
 </head>
-<body>
-    <section id="header">
-        <header>
-            <img src="./img/mobius-logo-long_1.png" alt="Logo Mobius">
+<body class="bg-black  ">
+    <section>
+        <header class=" flex items-center justify-center h-[70px] relative">
+            <img class="w-[140px] h[70px] absolute left-40" src="../img/mobius-logo-long_1.png" alt="Logo Mobius">
             <nav>
-                <ul>
+                <ul class="flex gap-12 uppercase text-white">
                     <li class="home"><a href="/index.html">Home</a></li>
                     <li class="team"><a href="/team.html">Team</a></li>
                     <li class="contact"><a href="/contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="container-img">
-            <img src="./img/logo_outer.png" alt="Logo Outer">
-            <img src="./img/HD-wallpaper-video-game-outer-wilds.jpg" alt="Outer Wilds Wallpaper">
+        <div class="flex">
+            <img class="m-auto scale-50" src="../img/logo_outer.png" alt="Logo Outer">
+            <img class="m-auto " src="../img/HD-wallpaper-video-game-outer-wilds.jpg" alt="Outer Wilds Wallpaper">
         </div>
     </section>
+    <hr class="border rounded-sm mx-[80px] my-[50px] bg-gray-600 border-gray-600">
     <section >
-        <main>   
-            <div class="texto-principal">
+        <main class="grid grid-cols-2">   
+            <div class="text-white text-center my-auto">
                 <h2> The journey starts now </h2>
-                <p class="paragrafo"> 
+                <p> 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, doloremque. Aperiam explicabo
                      vel ipsa fugit, minima nobis itaque et maiores ducimus quae necessitatibus nam id sit dolores perferendis 
                      consectetur totam.
@@ -36,16 +37,17 @@
                      earum saepe, perferendis harum nemo neque totam assumenda, consequuntur accusamus!
                 </p>
             </div> 
-            <div class="gif">
-                <img src="./img/Gif_fogueira_outer.gif" alt="Fogueira Outer Wilds">
+            <div class="justify-self-center">
+                <img src="../img/Gif_fogueira_outer.gif" alt="Fogueira Outer Wilds">
             </div>
            
         </main>
     </section>
+    <hr class="border rounded-sm mx-[80px] mt-[50px] bg-gray-600 border-gray-600">
     <section>
-        <footer>
-            <div class="linha"></div>
-            <p class="rodape">Copyright &copy;</p>
+        <footer class="h-[100px] flex items-center justify-center">
+            
+            <p class=" text-[#a9a9a9] ">Copyright &copy;</p>
            
         </footer>
     </section>
